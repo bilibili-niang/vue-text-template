@@ -7,10 +7,18 @@
     "build": "vuedx-typecheck . && vite build",
     "publish": "npm publish"
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git",
+      "useEmoji": true
+    }
+  },
   "dependencies": {
     "vue": "3.0.11",
     "vue-router": "^4.0.6",
-    "vuex": "4.0.0"
+    "vuex": "4.0.0",
+    "cz-git": "^1.9.1",
+    "js-beautify": "^1.15.1"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
