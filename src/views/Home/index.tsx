@@ -13,7 +13,7 @@ export default defineComponent({
     return () => {
       return (
         <div class="home-page">
-          <h1>Home</h1>
+          <h1 class="m-100">Home</h1>
           <h1>{store.state.title}</h1>
           <div>count:{count.value}</div>
           <button
