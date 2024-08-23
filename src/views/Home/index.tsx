@@ -2,10 +2,8 @@ import { defineComponent, ref } from 'vue'
 import { useStore } from 'vuex'
 
 export default defineComponent({
-  name: 'ComponentName',
-  props: {},
-  emit: [''],
-  setup(props, { emit }) {
+  name: 'Home',
+  setup() {
     const store = useStore()
 
     const count = ref(0)
